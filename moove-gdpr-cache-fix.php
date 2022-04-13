@@ -9,11 +9,11 @@ License:     GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 
-/* PIE\MooveGDPRCacheFix  is free software: you can redistribute it and/or modify it under the terms of the GNU General License as published by the Free Software Foundation, either version 2 of the License, or any later version.
+/* PIE\MooveGDPRCacheFix is free software: you can redistribute it and/or modify it under the terms of the GNU General License as published by the Free Software Foundation, either version 2 of the License, or any later version.
 
-PIE\MooveGDPRCacheFix  is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General License for more details.
+PIE\MooveGDPRCacheFix is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General License for more details.
 
-You should have received a copy of the GNU General License along with PIE\MooveGDPRCacheFix . If not, see https://www.gnu.org/licenses/gpl-3.0.en.html */
+You should have received a copy of the GNU General License along with PIE\MooveGDPRCacheFix. If not, see https://www.gnu.org/licenses/gpl-3.0.en.html */
 
 namespace PIE\MooveGDPRCacheFix;
 
