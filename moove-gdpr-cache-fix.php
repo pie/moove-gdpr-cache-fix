@@ -25,4 +25,4 @@ function enqueue_scripts() {
     wp_enqueue_script( 'moove-gdpr-cache-fix', plugins_url( '/js/cache-gdpr.js', __FILE__ ), array( 'jquery' ), $this->version, true );
   }
 }
-add_action( 'wp_enqueue_scripts', 'PIE\MooveGDPRCacheFix\enqueue_scripts' );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts' );
