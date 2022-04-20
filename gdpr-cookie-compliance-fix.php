@@ -25,4 +25,4 @@ function enqueue_scripts() {
     wp_enqueue_script( 'gdpr-cookie-compliance-fix', plugins_url( '/js/gdpr-cookie-compliance-fix.js', __FILE__ ), array( 'jquery' ), '0.1', true );
   }
 }
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts' );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_scripts' );
