@@ -22,7 +22,7 @@ namespace PIE\GDPRCookieComplianceFix;
  */
 function enqueue_scripts() {
   if ( ! is_admin() ){
-    wp_enqueue_script( 'gdpr-cookie-compliance-fix', plugins_url( '/js/gdpr-cookie-compliance-fix.js', __FILE__ ), array( 'jquery' ), '0.1', true );
+    wp_enqueue_script( 'gdpr-cookie-compliance-fix', get_stylesheet_directory_uri() . '/plugins/gdpr-cookie-compliance-fix/js/gdpr-cookie-compliance-fix.js', array( 'jquery' ), '0.1', true );
   }
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_scripts' );
