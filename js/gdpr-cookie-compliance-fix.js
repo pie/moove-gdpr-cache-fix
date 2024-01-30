@@ -33,6 +33,8 @@ var localCache = {
 jQuery.ajaxPrefilter(function (options, originalOptions, jqXHR, a) {
 
 	if ( ! window.localStorage ) return true;
+	if ( options.data === undefined ) return true;
+	
 	if (
 		options.data.indexOf("action=moove_gdpr_get_scripts") === -1 &&
 	 	options.data.indexOf("action=moove_gdpr_localize_scripts") === -1 &&
